@@ -1,3 +1,9 @@
-selenium
-webdriver_manager
-time
+streamlit
+PyPDF2
+requests
+google-generativeai
+pymongo
+bs4
+googlesearch-python
+fpdf
+python-dotenv
