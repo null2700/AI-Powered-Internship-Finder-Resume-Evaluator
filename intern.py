@@ -14,7 +14,7 @@ from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()
-genai.configure(api_key="AIzaSyCcETag2wmwbqXDInoC1WVH7bsfqUK1SKE")
+genai.configure(api_key="")
 
 # Initialize MongoDB
 mongo_client = MongoClient("mongodb://localhost:27017/")
