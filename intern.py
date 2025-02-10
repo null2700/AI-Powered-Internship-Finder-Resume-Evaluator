@@ -18,9 +18,9 @@ genai.configure(api_key="AIzaSyCcETag2wmwbqXDInoC1WVH7bsfqUK1SKE")
 
 # Initialize MongoDB
 mongo_client = MongoClient("mongodb://localhost:27017/")
-mongo_db = mongo_client["resume_db"]
-resumes_collection = mongo_db["resumes"]
-logs_collection = mongo_db["logs"]
+mongo_db = mongo_client["internshipdata"]
+resumes_collection = mongo_db["intern"]
+
 
 # Function to extract text from PDF
 def extract_pdf_text(uploaded_file):
