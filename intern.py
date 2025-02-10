@@ -59,7 +59,7 @@ def get_gemini_response(resume_text, job_description):
             "Formatting_Issues": ["Work Experience section appears empty", "Date format should be MM/YYYY"],  
             "Job_Title_Match": "The job title 'Python Engineer' was not found in the resume. Consider adding it to the summary.",  
             "Contact_Information": {  
-                "Email": "Provided",  
+                "mail": "Provided",  
                 "Phone": "Provided",  
                 "Address": "Not Found"  
             },  
@@ -71,7 +71,7 @@ def get_gemini_response(resume_text, job_description):
             },  
             "File_Format": "Resume is in an incompatible format. Convert it to an ATS-friendly PDF.",  
             "Summary": "Your resume has strong Python skills but lacks key cloud-related technologies like Kubernetes and BigQuery. Update your job title to match the description and ensure your experience section is well-structured."  
-            }}}
+            }
     """
     
     model = genai.GenerativeModel("gemini-pro")
